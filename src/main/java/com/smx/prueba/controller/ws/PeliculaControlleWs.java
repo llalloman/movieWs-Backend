@@ -55,4 +55,19 @@ public class PeliculaControlleWs {
 		return Response.status(Response.Status.OK).entity(salida).build();
 	}
 	
+	@GET
+	@Path("/")
+	@Produces({MediaType.TEXT_PLAIN})
+	public Response index() {
+	    return Response
+	      .status(200)
+	      .header("Access-Control-Allow-Origin", "*")
+	      .header("Access-Control-Allow-Credentials", "true")
+	      .header("Access-Control-Allow-Headers",
+	        "origin, content-type, accept, authorization")
+	      .header("Access-Control-Allow-Methods", 
+	        "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+	      .entity("")
+	      .build();
+	}
 }

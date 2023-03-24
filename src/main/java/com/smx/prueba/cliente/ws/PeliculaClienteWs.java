@@ -72,4 +72,10 @@ public class PeliculaClienteWs {
 		}
 		return null;
 	}
+	
+	public static void main(String[] args) {
+		
+		PeliculaClienteWs pel = new PeliculaClienteWs();
+		pel.obtenerDatosPelicula();
+	}
 }
