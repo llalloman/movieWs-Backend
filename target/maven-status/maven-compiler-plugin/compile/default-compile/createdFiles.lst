@@ -1,0 +1,6 @@
+com\smx\prueba\cliente\ws\PeliculaClienteWs.class
+com\smx\prueba\cliente\ws\PeliculaClienteWs$1.class
+com\smx\prueba\cliente\ws\vo\PeliculaResponseVO.class
+com\smx\prueba\cliente\ws\vo\PeliculaDataVO.class
+com\smx\prueba\conf\Configuration.class
+com\smx\prueba\controller\ws\PeliculaControlleWs.class
